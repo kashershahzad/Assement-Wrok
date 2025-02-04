@@ -11,7 +11,7 @@ const Feature = () => {
                     </div>
                     <div className='max-w-lg'>
                         <p className='text-darkBlue lg:text-xl'>
-                            <span className='font-bold'>Connect your brokerage accounts</span> <br /> and get access to trading ideas,<br /> aggregated stats and discussions in <br /> your tech investing community right <br /> away.
+                            <span className='font-bold'>Track your net worth automatically</span> <br />  and spend less time managing your <br /> personal finances. No need to update <br />spreadsheets manually anymore.
                         </p>
                     </div>
                 </div>
