@@ -23,11 +23,17 @@ const Security = () => {
   ];
 
   return (
-    <div className="bg-cover bg-center lg:p-20 p-5 bg-[url('/images/Background.png')]">
-    <p className='text-center text-white text-xl font-bold mb-10'>SECURITY IS OUR PRIORITY</p>
+    <div className='bg-[#009BCC] bg-cover bg-center lg:p-20 p-5'
+    style={{
+        backgroundImage: "url('/images/icon.svg')",
+        backgroundSize: "cover",
+        backgroundPosition: "start"
+    }}
+>
+    <p className='text-center text-white text-3xl font-bold mb-10 '>SECURITY IS OUR PRIORITY</p>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
         {items.map((item) => (
-          <div key={item.id} className="bg-white p-6 rounded-lg shadow-lg">
+          <div key={item.id} className="bg-white p-6 rounded-lg">
             <div className='flex items-center justify-center'>
             <img src={item.img} alt={item.title} className="w-20 h-20 object-cover rounded-md mb-4" /></div>
             <h2 className="text-2xl font-bold text-center mb-2 text-darkBlue ">{item.title}</h2>
@@ -35,7 +41,11 @@ const Security = () => {
           </div>
         ))}
       </div>
+      <div className='flex items-center justify-center mt-16'>
+      <button className='py-4 px-12 font-bold bg-[#FFC730] rounded-lg text-white'>Learn More About Security</button>
+      </div>
     </div>
+    
   );
 };
 

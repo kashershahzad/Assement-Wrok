@@ -4,7 +4,13 @@ const Feature = () => {
     return (
         <div className=''>
             <hr className="border-t-1 border-gray-300" />
-            <div className='bg-[url("/images/Background.png")] bg-cover bg-center lg:p-20 p-5'>
+            <div className='bg-[#3994E9] bg-cover bg-center lg:p-20 p-5'
+                style={{
+                    backgroundImage: "url('/images/icon.svg')",
+                    backgroundSize: "cover",
+                    backgroundPosition: "start"
+                }}
+            >
                 <div className='flex lg:flex-row flex-col lg:gap-20 gap-3  items-center justify-center bg-white p-10 rounded-lg shadow-lg'>
                     <div className='max-w-lg'>
                         <p className='text-darkBlue lg:text-xl'>
