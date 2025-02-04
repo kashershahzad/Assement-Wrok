@@ -11,21 +11,24 @@ import Security from '@/component/Secruity/Security'
 import Contact from '@/component/Contact/Contact'
 import Footer from '@/component/Footer'
 import MobileHero from '@/component/MobileHero/MobileHero'
+import MobileNavbar from '@/component/MobileNavbar'
 
 const Page = () => {
   return (
     <div>
-      <Navbar />
+
       {/* MobileHero will be visible on small screens (default), hidden on lg and larger */}
       <div className="block lg:hidden">
+        <MobileNavbar />
         <MobileHero />
       </div>
       {/* Hero will be hidden on small screens and visible on lg and larger */}
       <div className="hidden lg:block">
+        <Navbar />
         <Hero />
         <Info />
+        <People />
       </div>
-      <People />
       <Feature />
       <Feature2 />
       <Feature3 />

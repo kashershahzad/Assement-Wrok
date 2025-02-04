@@ -3,8 +3,11 @@ import React from 'react'
 const MobileHero = () => {
     return (
         <div className='lg:mt-10 p-3 text-center'>
-            <p className='text-[40px] font-bold text-[#00ABE1]'>
-                FAANG <br />
+            <div className="mt-10 flex justify-center">
+                <img src="/images/mobile.png" alt="" height={150} width={150}/>
+            </div>
+            <p className='lg:text-[40px] text-4xl my-10 font-bold text-[#00ABE1]'>
+                FAANG 
                 INVESTING <br />
                 COMMUNITY <br />
             </p>
