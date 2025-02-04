@@ -11,13 +11,13 @@ const Contact = () => {
     >
             <h2 className="text-3xl font-bold text-center mb-2 text-white">Contact Us</h2>
             <p className="text-white text-center text-lg">We look forward to hearing from you!</p>
-            <div className='flex lg:flex-row flex-col lg:gap-20 gap-3  items-center justify-center p-10 rounded-lg bg-transparent'>
+            <div className='flex lg:flex-row flex-col lg:gap-20 gap-3 items-center justify-center p-10 rounded-lg bg-transparent'>
                 <div>
                     <img src="/images/contact2.png" alt="Group Cards" height={400} width={400} />
                 </div>
-                <div className="max-w-lg lg:w-[380px] mx-auto p-6 bg-lightBlue rounded-lg">
+                <div className="max-w-lg lg:w-[380px] w-[250px] mx-auto lg:p-6 lg:bg-lightBlue rounded-lg">
 
-                    <form className="space-y-4 px-5 py-10">
+                    <form className="space-y-4 py-10">
                         {/* Row 1 */}
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                             <input
