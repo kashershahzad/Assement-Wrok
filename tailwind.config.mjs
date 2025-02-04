@@ -1,17 +1,16 @@
-/** @type {import('tailwindcss').Config} */
-export default {
-  content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
-  ],
+module.exports = {
+  purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
+  darkMode: false, 
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        darkBlue: '#127398',
+        lightBlue: '#00ABE1',
       },
     },
   },
+  variants: {
+    extend: {},
+  },
   plugins: [],
-};
+}
