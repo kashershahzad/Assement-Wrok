@@ -18,8 +18,15 @@ const Feature = () => {
                         </p>
                     </div>
                     <div>
-                        <img src="/images/Groups Cards.png" alt="Group Cards" height={500} width={500} />
+                        <img
+                            src="/images/Groups Cards.png"
+                            alt="Group Cards"
+                            height={500}
+                            width={500}
+                            className="transition-transform duration-500 transform hover:scale-110"
+                        />
                     </div>
+
                 </div>
             </div>
         </div>

@@ -18,7 +18,7 @@ const Feature4 = () => {
             alt="Group Cards"
             height={500}
             width={500}
-            className="lg:-m-10 lg:scale-110 scale-105 drop-shadow-lg"
+            className="lg:-m-10 lg:scale-110 scale-105 drop-shadow-lg transition-transform duration-500 transform hover:scale-110"
           />
         </div>
         <div className='max-w-lg'>

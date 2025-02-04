@@ -12,8 +12,8 @@ const Feature2 = () => {
                 }}
             >
                 <div className='flex lg:flex-row flex-col lg:gap-20 gap-3  items-center justify-center bg-white p-10 rounded-lg shadow-lg'>
-                <div>
-                        <img src="/images/Groups Cards.png" alt="Group Cards" height={500} width={500} />
+                    <div>
+                        <img src="/images/Groups Cards.png" alt="Group Cards" height={500} width={500} className="transition-transform duration-500 transform hover:scale-110" />
                     </div>
                     <div className='max-w-lg'>
                         <p className='text-darkBlue lg:text-xl'>
