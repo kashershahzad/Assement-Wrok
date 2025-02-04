@@ -26,7 +26,6 @@ const Feature = () => {
                             className="transition-transform duration-500 transform hover:scale-110"
                         />
                     </div>
-
                 </div>
             </div>
         </div>
