@@ -19,7 +19,7 @@ const Feature3 = () => {
           </div>
           <div className="relative">
             <img
-              src="/images/Card3.png"
+              src="/images/card3.png"
               alt="Group Cards"
               height={400}
               width={400}
