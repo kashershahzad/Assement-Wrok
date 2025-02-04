@@ -9,6 +9,7 @@ import Feature3 from '@/component/Feature/Feature3'
 import Feature4 from '@/component/Feature/Feature4'
 import Security from '@/component/Secruity/Security'
 import Contact from '@/component/Contact/Contact'
+import Footer from '@/component/Footer'
 
 const page = () => {
   return (
@@ -23,6 +24,7 @@ const page = () => {
       <Feature4 />
       <Security />
       <Contact />
+      <Footer />
     </div>
   )
 }
