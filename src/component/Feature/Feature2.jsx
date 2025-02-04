@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Feature = () => {
+const Feature2 = () => {
     return (
         <div className=''>
             <hr className="border-t-1 border-gray-300" />
@@ -20,4 +20,4 @@ const Feature = () => {
     );
 };
 
-export default Feature;
+export default Feature2;

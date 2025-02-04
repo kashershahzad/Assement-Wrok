@@ -5,6 +5,8 @@ import Info from "@/component/Info/Info"
 import People from '@/component/People/People'
 import Feature from '@/component/Feature/Feature'
 import Feature2 from '@/component/Feature/Feature2'
+import Feature3 from '@/component/Feature/Feature3'
+import Feature4 from '@/component/Feature/Feature4'
 
 const page = () => {
   return (
@@ -15,6 +17,8 @@ const page = () => {
       <People />
       <Feature />
       <Feature2 />
+      <Feature3 />
+      <Feature4 />
     </div>
   )
 }
