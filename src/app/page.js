@@ -7,6 +7,8 @@ import Feature from '@/component/Feature/Feature'
 import Feature2 from '@/component/Feature/Feature2'
 import Feature3 from '@/component/Feature/Feature3'
 import Feature4 from '@/component/Feature/Feature4'
+import Security from '@/component/Secruity/Security'
+import Contact from '@/component/Contact/Contact'
 
 const page = () => {
   return (
@@ -19,6 +21,8 @@ const page = () => {
       <Feature2 />
       <Feature3 />
       <Feature4 />
+      <Security />
+      <Contact />
     </div>
   )
 }
