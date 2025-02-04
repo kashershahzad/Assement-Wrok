@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
     return (
-        <div className='bg-[#127398] bg-cover bg-center lg:p-20 p-5'
+        <div className='bg-[#127398] bg-cover bg-center lg:p-18 p-5'
         style={{
             backgroundImage: "url('/images/darkblue.svg')",
             backgroundSize: "cover",
