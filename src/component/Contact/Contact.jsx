@@ -15,7 +15,7 @@ const Contact = () => {
                 <div>
                     <img src="/images/contact2.png" alt="Group Cards" height={400} width={400} />
                 </div>
-                <div className="max-w-lg w-[380px] mx-auto p-6 bg-lightBlue rounded-lg">
+                <div className="max-w-lg lg:w-[380px] mx-auto p-6 bg-lightBlue rounded-lg">
 
                     <form className="space-y-4 px-5 py-10">
                         {/* Row 1 */}

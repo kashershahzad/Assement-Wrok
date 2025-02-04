@@ -10,13 +10,21 @@ import Feature4 from '@/component/Feature/Feature4'
 import Security from '@/component/Secruity/Security'
 import Contact from '@/component/Contact/Contact'
 import Footer from '@/component/Footer'
+import MobileHero from '@/component/MobileHero/MobileHero'
 
-const page = () => {
+const Page = () => {
   return (
     <div>
       <Navbar />
-      <Hero />
-      <Info />
+      {/* MobileHero will be visible on small screens (default), hidden on lg and larger */}
+      <div className="block lg:hidden">
+        <MobileHero />
+      </div>
+      {/* Hero will be hidden on small screens and visible on lg and larger */}
+      <div className="hidden lg:block">
+        <Hero />
+        <Info />
+      </div>
       <People />
       <Feature />
       <Feature2 />
@@ -29,4 +37,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
