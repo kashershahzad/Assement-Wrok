@@ -7,13 +7,11 @@ const MobileNavbar = () => {
   return (
     <>
     <div className="relative">
-      {/* Toggle Button */}
       <button
         className="absolute top-4 right-4 p-2 rounded focus:outline-none"
         onClick={() => setIsOpen(!isOpen)}
       >
         {isOpen ? (
-          // Close Icon
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -29,7 +27,6 @@ const MobileNavbar = () => {
             />
           </svg>
         ) : (
-          // Three Horizontal Lines Icon
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -46,8 +43,7 @@ const MobileNavbar = () => {
           </svg>
         )}
       </button>
-
-      {/* Navbar Menu */}
+      
       {isOpen && (
         <ul className="absolute top-12 right-4 bg-white shadow-lg p-4 rounded-md">
           <li className="py-2">App</li>
