@@ -17,12 +17,10 @@ const Page = () => {
   return (
     <div>
 
-      {/* MobileHero will be visible on small screens (default), hidden on lg and larger */}
       <div className="block lg:hidden">
         <MobileNavbar />
         <MobileHero />
       </div>
-      {/* Hero will be hidden on small screens and visible on lg and larger */}
       <div className="hidden lg:block">
         <Navbar />
         <Hero />
