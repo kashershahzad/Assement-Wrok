@@ -16,7 +16,6 @@ import MobileNavbar from '@/component/MobileNavbar'
 const Page = () => {
   return (
     <div>
-
       <div className="block lg:hidden">
         <MobileNavbar />
         <MobileHero />
